@@ -1,0 +1,49 @@
+h1>a{
+    color: blueviolet;
+
+}
+
+#input{
+    display: flex;
+    margin: auto;
+    margin: 10px;
+}
+
+#search{
+    width: 80%;
+    height: 30px;
+    border: 1.5px solid teal;
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+#sidebar{
+    width: 90%;
+    height: auto;
+    justify-content: space-around;
+    text-align: center;
+    display: flex;
+    margin: auto;
+}
+
+#sidebar>h3{
+    border-radius: 15px;
+    padding: 10px;
+    background-color: teal;
+ 
+}
+
+/* **********navbar css completed*********** */
+
+#results{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+.image{
+    width: 350px;
+    height: 250px;
+}
